@@ -12,7 +12,7 @@ SEGMENTER_IMG_SIZE = 320
 BASE_DIR_SSD = "/Users/chylvina/WorkSpace/GitHub/kaggle_ndsb2017/tmp/"
 BASE_DIR = "/Users/chylvina/WorkSpace/GitHub/kaggle_ndsb2017/tmp/"
 EXTRA_DATA_DIR = "resources/"
-NDSB3_RAW_SRC_DIR = BASE_DIR + "ndsb_raw/stage12/"
+NDSB3_RAW_SRC_DIR = BASE_DIR + "ndsb_raw/"
 LUNA16_RAW_SRC_DIR = BASE_DIR + "luna_raw/"
 
 NDSB3_EXTRACTED_IMAGE_DIR = BASE_DIR_SSD + "ndsb3_extracted_images/"

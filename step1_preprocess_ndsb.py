@@ -4,7 +4,7 @@ import glob
 import os
 import cv2  # conda install -c https://conda.anaconda.org/menpo opencv3
 import scipy.misc
-import dicom  # pip install pydicom
+import pydicom as dicom # pip install pydicom
 import numpy
 import math
 from multiprocessing import Pool
@@ -116,4 +116,4 @@ def extract_dicom_images(clean_targetdir_first=False, only_patient_id=None):
 
 
 if __name__ == '__main__':
-    extract_dicom_images(clean_targetdir_first=False, only_patient_id=None)
+    extract_dicom_images(clean_targetdir_first=False, only_patient_id='0015ceb851d7251b8f399e39779d1e7d')
